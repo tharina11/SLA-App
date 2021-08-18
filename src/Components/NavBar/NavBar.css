@@ -43,6 +43,9 @@ a{
     margin-bottom: 04%;
 }
 .logoImage{
+    margin-top: 10px;
     margin-left: 05%;
+    width: 25%;
+    border-radius: 50%;
 }
 

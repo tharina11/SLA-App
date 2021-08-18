@@ -1,4 +1,11 @@
-body{
+/* body{
     background: url(./bbk.jpg) no-repeat center center fixed;
     background-size: cover;
-}
+} */
+
+.videoTag{
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }

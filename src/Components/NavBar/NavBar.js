@@ -1,9 +1,9 @@
 import React from "react";
-import "./nav2.css";
+import "./NavBar.css";
 import { NavLink } from "react-router-dom";
 import logo from "./logo.jpg";
 
-function Navbar2() {
+function Navbar() {
   return (
     <>
       <div className="row mainrowd">
@@ -91,4 +91,4 @@ function Navbar2() {
   );
 }
 
-export default Navbar2;
+export default Navbar;
