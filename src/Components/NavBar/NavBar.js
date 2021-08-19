@@ -1,7 +1,7 @@
 import React from "react";
 import "./NavBar.css";
 import { NavLink } from "react-router-dom";
-import logo from "./logo.jpg";
+import logo from "../../Images&Vedios/logo.jpg";
 
 function Navbar() {
   return (
@@ -9,9 +9,10 @@ function Navbar() {
       <div className="row mainrowd">
         <div className="col-sm-12 col-md-4 col-xl-4 div1">
           <img src={logo} alt="SLA Logo" className="logoImage" />
+          <h5>SRI LANKA ASSOCIATION</h5>
         </div>
-
         <div className="col-sm-12 col-md-4 col-xl-4 div2">
+        
           <div className="col-sm-12 col-md-4 col-xl-4 div2child child midchild">
             <div className="dropdown">
               <a

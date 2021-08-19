@@ -1,7 +1,7 @@
 import React from 'react';
 import MainBody from "./Components/MainBody"
 // import flag from "../Images&Vedios/flag.mp4";
-import flag from "./Images&Vedios/flag.mp4"
+ import flag from "./Images&Vedios/flag.mp4"
 import "./app.css"
 
 
