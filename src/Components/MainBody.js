@@ -12,6 +12,7 @@ import Services from "./Service/Services";
 // import Navbar from "./NavBar/NavBar";
 import Carosel from "./Carousel/Carousel";
 import Nav2 from "./NavBar2/Nav2"
+import Events from "./Events/Events";
 import flag from "../Images&Vedios/flag.mp4"
 import Footer from "./Footer/Footer";
 
@@ -26,7 +27,7 @@ function MainBody() {
       <Nav2 />
       <div className="row">
         <div className="col col-md-4  col-sm-12">
-
+        <Events />
         </div>
         <div className="col col-md-8  col-sm-12">
         <Switch>
