@@ -1,0 +1,18 @@
+.logoImageNav2{
+    width: 15%;
+    border-radius: 50%;
+}
+.navbar2{
+ color: antiquewhite;
+}
+.navDiv{
+    color: antiquewhite;
+}
+Navbar{
+    color: antiquewhite;
+}
+@media only screen and (max-width: 600px) {
+    .navDiv {
+      justify-content: center;
+    }
+  }

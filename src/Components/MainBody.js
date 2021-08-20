@@ -9,19 +9,26 @@ import "./main.css";
 import About from "./About/About";
 import Contact from "./Contact/Contact";
 import Services from "./Service/Services";
-import Navbar from "./NavBar/NavBar";
+// import Navbar from "./NavBar/NavBar";
 import Carosel from "./Carousel/Carousel";
+import Nav2 from "./NavBar2/Nav2"
+import flag from "../Images&Vedios/flag.mp4"
+import Footer from "./Footer/Footer";
 
 function MainBody() {
   return (
     <div className="Login-component">
+          <video className="videoTag" autoPlay loop muted>
+      <source src={flag} type="video/mp4" />
+    </video>
       <Router>
-      <Navbar />
+      {/* <Navbar /> */}
+      <Nav2 />
       <div className="row">
-        <div className="col col-lg-4 col-lg-4 col-sm-12">
+        <div className="col col-md-4  col-sm-12">
 
         </div>
-        <div className="col col-md-8 col-lg-8 col-sm-12">
+        <div className="col col-md-8  col-sm-12">
         <Switch>
             <Route path="/" exact>
                 <Carosel />
@@ -40,8 +47,9 @@ function MainBody() {
         </div>
       </div>
       
-
+       
       </Router>
+      <Footer />
     </div>
   );
 }

@@ -26,7 +26,7 @@ function Carosel() {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src="../img/3.jpg" alt="Third slide" />
+          <img className="d-block w-100 lastimage" src="../img/3.jpg" alt="Third slide" />
 
           <Carousel.Caption>
             <h3>Third slide label</h3>
