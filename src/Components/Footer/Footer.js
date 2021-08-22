@@ -33,7 +33,7 @@ function Footer() {
                   <i className="fas fa-gem me-3"></i>SRI LANKA ASSOCIATION
                 </h6>
                 <p>
-                   Add something here
+                   The Second Oldest Sri Lankan Association in the United States.
                 </p>
               </div>
 
@@ -78,14 +78,14 @@ function Footer() {
               <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                 <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
                 <p>
-                  <i className="fas fa-home me-3"></i> Missouri, MO 00000, US
+                  <i className="fas fa-home me-3"></i> SLA Association St Louies, MO, USA.
                 </p>
                 <p>
                   <i className="fas fa-envelope me-3"></i>
-                  ex@example.com
+                  midwestlsa@gmail.com
                 </p>
                 <p>
-                  <i className="fas fa-phone me-3"></i> + 01 XXXXXXX
+                  <i className="fas fa-phone me-3"></i> + 01 636 328 9352
                 </p>
               </div>
             </div>
@@ -94,7 +94,6 @@ function Footer() {
 
         <div
           className="text-center p-4"
-        //   style={{backgroundColor: rgba(0, 0, 0, 0.05)}}
         >
           © 2021 Copyright :
           <a className="text-reset fw-bold" href="!#">

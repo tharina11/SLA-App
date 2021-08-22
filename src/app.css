@@ -1,13 +1,9 @@
-/* body{
-    background: url(./bbk.jpg) no-repeat center center fixed;
-    background-size: cover;
-} */
+
 body{
-    background-color: rgb(173, 156, 156);
-    padding: 0px;
-    margin:0px;
+    background-image: url(./Images&Vedios/bk.jpg);
 }
 .videoTag{
+    margin-top: 100px;
     position: absolute;
     width: 100%;
     object-fit: cover;

@@ -9,9 +9,8 @@ import "./main.css";
 import About from "./About/About";
 import Contact from "./Contact/Contact";
 import Services from "./Service/Services";
-// import Navbar from "./NavBar/NavBar";
 import Carosel from "./Carousel/Carousel";
-import Nav2 from "./NavBar2/Nav2"
+import Navbar from "./NavBar/Navbar"
 import Events from "./Events/Events";
 import flag from "../Images&Vedios/flag.mp4"
 import Footer from "./Footer/Footer";
@@ -23,13 +22,12 @@ function MainBody() {
       <source src={flag} type="video/mp4" />
     </video>
       <Router>
-      {/* <Navbar /> */}
-      <Nav2 />
+      <Navbar />
       <div className="row">
-        <div className="col col-md-4  col-sm-12">
+        <div className=" col-xl-4 col-md-4  mainDiv1">
         <Events />
         </div>
-        <div className="col col-md-8  col-sm-12">
+        <div className=" col-xl-8 col-md-8 mainDiv2">
         <Switch>
             <Route path="/" exact>
                 <Carosel />

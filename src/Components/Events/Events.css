@@ -1,0 +1,18 @@
+.cardDiv {
+  width: "100%";
+  opacity: 0.9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.cardChild {
+    opacity: 0.8;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.cardImage{
+    width: 100px;
+    margin-right: 10px;
+}
