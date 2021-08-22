@@ -24,7 +24,7 @@ function Events() {
         </Card>
         <Card bg="light" className="cardChild">
           <Card.Body>
-            <Card.Title>Reacent Events</Card.Title>
+            <Card.Title>Recent Events</Card.Title>
             <Card.Subtitle className="mb-2 text-muted">
               Card Subtitle
             </Card.Subtitle>
